@@ -488,5 +488,52 @@ h6 {
 }
 
 .main-page-wrapper {
-    background: url(./img/lange.jpg) center top no-repeat, url(./img/langrni.png) right bottom 150px no-repeat;
+    background: url("./img/lange.jpg") center top no-repeat, url("./img/langrni.png") right bottom 150px no-repeat;
+}
+
+/* reviews page*/
+
+.top-line {
+    min-height: 415px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    background: #17191C url("./img/lange.jpg") right 10% top no-repeat
+
+}
+
+.top-line__container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page-title {
+    font-size: 72px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+}
+.breadcrumbs__item :after {
+    content: "/";
+    color: #9A9A9A;
+}
+
+.breadcrumbs__item :last-child ::after {
+    display: none;
+}
+.breadcrumbs__link {
+    color: #9A9A9A;
+    font-size: 14px;
+    text-decoration-line: underline;
 }
