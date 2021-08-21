@@ -36,6 +36,17 @@ h6 {
     box-sizing: border-box;
 }
 
+.body. html {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
+}
+
 .container {
     margin: 0 auto;
     width: 1140px;
@@ -56,11 +67,27 @@ h6 {
 
 .header__col__aling--right {
     justify-content: flex-end;
-
 }
+
 .footer__container {
+    margin-top: auto;
+}
+
+.footer {
     min-height: 120px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__col__aling--right{
+    justify-content: flex-end;
 }
 
 .logo {
@@ -173,10 +200,6 @@ h6 {
     background: transparent;
     border: 1px solid #fff;
     color: #fff;
-}
-
-.footer {
-    position: relative;
 }
 
 .section {
@@ -413,10 +436,7 @@ h6 {
 }
 
 .socials {
-    position: absolute;
-    width: 174px;
-    height: 36px;
-    left: 1092px;
+    margin-right: 74px;
 }
 
 .socials__item {
