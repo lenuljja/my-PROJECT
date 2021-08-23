@@ -36,6 +36,11 @@ h6 {
     box-sizing: border-box;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 .body, html {
     height: 100%;
 }
@@ -536,4 +541,38 @@ h6 {
     color: #9A9A9A;
     font-size: 14px;
     text-decoration-line: underline;
+}
+
+.page-content {
+    background: #F2F2F2;
+    color: #303030;
+    padding: 40px 0;
+}
+
+.games {
+    margin-bottom: 65px;
+}
+.games {
+    display: flex;
+}
+
+.games__img {
+    width: 30%;
+    margin-right: 7%;
+}
+
+.games__content {
+    flex: 1;
+}
+
+.games__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 22px;
+    color: #000000;
+}
+
+.games__desc {
+    line-height: 1.7;
+    margin-bottom: 30px;
 }
