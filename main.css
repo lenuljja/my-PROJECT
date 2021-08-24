@@ -576,3 +576,39 @@ img {
     line-height: 1.7;
     margin-bottom: 30px;
 }
+
+.inner-section {
+    background: #fff;
+    color: #1A1B1E;
+    padding: 88px 0px;
+}
+
+.inner-section__bg__g {
+    background: #F4F5F5;
+}
+
+.inter-section__title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 75px;
+}
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -46px;
+}
+
+.partners__link {
+    text-decoration: none;
+    display: flex;
+    width: 270px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(100%);
+}
+
+.partners__link:hover {
+    filter: grayscale(0%);
+}
