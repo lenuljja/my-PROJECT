@@ -562,9 +562,10 @@ img {
     display: flex;
 }
 
-.games__img {
-    width: 30%;
-    margin-right: 7%;
+.games__pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .games__content {
