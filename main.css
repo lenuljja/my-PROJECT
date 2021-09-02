@@ -558,8 +558,14 @@ img {
 .games {
     margin-bottom: 65px;
 }
-.games {
+.game {
     display: flex;
+}
+
+.gemes__img{
+    flex-shrink: 0;
+    width: 460px;
+    height: 333px;
 }
 
 .games__pic {
