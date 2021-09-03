@@ -76,8 +76,10 @@ img {
 }
 
 .footer__container {
-    border-top: 1px solid   #FFF rgb(255 255 255 255/10%);
+    display: flex;
+    border-top: 1px solid rgba (255 255 255/10%);
     padding: 40px 0;
+    justify-content: space-between;
 }
 
 .footer {
@@ -99,7 +101,7 @@ img {
 
 .logo {
     display: block;
-    margin-right: 209px;
+    margin-right: 75px;
 }
 
 .contacts__tel {
@@ -510,6 +512,7 @@ img {
     flex-direction: column;
     padding-bottom: 25px;
     background: #17191C url("./img/lange.png") right 10% top no-repeat;
+    background-position: center center;
     background-blend-mode: luminosity;
 }
 
@@ -531,6 +534,9 @@ img {
     align-items: center;
 }
 
+.breadcrumbs {
+    margin-top: 100px;
+}
 .breadcrumbs__item {
     display: flex;
     align-items: center;
@@ -562,10 +568,18 @@ img {
     display: flex;
 }
 
-.gemes__img{
+.games__img {
     flex-shrink: 0;
     width: 460px;
     height: 333px;
+    margin-right: 56px;
+}
+
+.games__item: :last-child {
+    margin-bottom: 0;
+}
+.games__item {
+    margin-bottom: 50px;
 }
 
 .games__pic {
@@ -579,7 +593,8 @@ img {
 }
 
 .games__title {
-    font-size: 30px;
+    font-size: 36px;
+    line-height: 39px;
     font-weight: bold;
     margin-bottom: 22px;
     color: #000000;
