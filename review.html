@@ -57,8 +57,8 @@
         </section>
         <main class="page-content">
             <div class="container">
-                <ul class="review">
-                    <li class="review__item reviews">
+                <ul class="reviews">
+                    <li class="reviews__item review">
                         <div class="review__header">
                             <div class="review__foto">
                                 <div class="avatar">
@@ -89,7 +89,7 @@
                                 <div class="review__userdata">
                                     <a href="#" class="review__user">Екатерина Жмых</a>
                                     <ul class="review__tags">
-                                        <li class="review__tag-item tag">IT-викторина</li>
+                                        <li class="review__tag-item tag tag--bg--green">IT-викторина</li>
                                     </ul>
                                 </div>
                             </div>
@@ -111,7 +111,7 @@
                                 <div class="review__userdata">
                                     <a href="#" class="review__user">Лиза Сидорова</a>
                                     <ul class="review__tags">
-                                        <li class="review__tag-item tag">Кино и музыка</li>
+                                        <li class="review__tag-item tag tag--bg--green">Кино и музыка</li>
                                     </ul>
                                 </div>
                             </div>
@@ -133,7 +133,7 @@
                                 <div class="review__userdata">
                                     <a href="#" class="review__user">Антон Игоревич</a>
                                     <ul class="review__tags">
-                                        <li class="review__tag-item tag">Гарри Поттер</li>
+                                        <li class="review__tag-item tag tag--bg--green">Гарри Поттер</li>
                                     </ul>
                                 </div>
                             </div>
@@ -178,10 +178,73 @@
                 </div>
             </div>
         </main>
+        <section class="separator">
+            <div class="container">
+                <div class="separator__content">
+                    <h2 class ="separator__title">
+                        Подберём игру для вас!
+                    </h2>
+                </div>
+            </div>
+        </section>
         <div class="inner-section inner-section__bg__g">
             <div class="container">
-                <h2 class="inter-section__title">Партнеры</h2>
-
+                <h2 class="inter-section__title">Оставьте отзыв</h2>
+                <form aclass="form">
+                    <div class="form__row">          
+                        <input type="text" placeholder="ФИО" class="form__input">
+                        <input type="text" placeholder="Ссылка на профиль VK" class="form__input">
+                    </div>
+                    <div class="form__row">
+                        <textarea class="form__input form__input--textarea"></textarea>
+                    </div>
+                    <div class="form__controls">
+                        <div class="form__controls--title">Какими услугами компании пользуетесь?</div>
+                        <ul class="controls">
+                            <li class="controls__item">
+                                <label class="controls__elem">
+                                    <input type="checkbox" class="controls__checkbox">
+                                    <div class="tag tag controls__tag">Остров обезьян</div>
+                                </label>
+                            </li>          
+                            <li class="controls">
+                                    <input type="checkbox" class="controls__checkbox">
+                                    <div class="tag">Тур по Тайланду</div>
+                                </label>
+                            </li>
+                            <li class="controls__item">
+                                <label class="controls__elem">
+                                    <input type="checkbox" class="controls__checkbox">
+                                    <div class="tag">Водопад Янг-бей</div>
+                                </label>
+                            </li>
+                            <li class="controls__item">
+                                <label class="controls__elem">
+                                    <input type="checkbox" class="controls__checkbox">
+                                    <div class="tag">Тур по Индонезии</div>
+                                </label>
+                            </li>
+                            <li class="controls__item">
+                                <label class="controls__elem">
+                                    <input type="checkbox" class="controls__checkbox">
+                                    <div class="tag">Никакими</div>
+                                </label>
+                            </li>
+                            <li class="controls__item">
+                                <label class="controls__elem">
+                                    <input type="checkbox" class="controls__checkbox">
+                                    <div class="tag">Тур по Бали</div>
+                                </label>
+                            </li>
+                            <li class="controls__item">
+                                <label class="controls__elem">
+                                    <input type="checkbox" class="controls__checkbox">
+                                    <div class="tag">Другое</div>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
             </div>
         </div>
         <footer class="inter-footer">
