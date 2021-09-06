@@ -45,6 +45,12 @@ img {
     height: 100%;
 }
 
+.button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -192,6 +198,14 @@ img {
     background: #8F00FF;
 }
 
+.button--color--black {
+    color: #fff;
+    background: #2B2B2B;
+}
+
+.button--color--black :hover {
+    background: #8F00FF;
+}
 .button--color--white {
     background: transparent;
     border: 1px solid #8F00FF;
@@ -763,6 +777,7 @@ img {
 }
 .form__controls {
     display: flex;
+    margin-bottom: 30px;
 }
 
 .form__controls--title {
@@ -791,4 +806,17 @@ img {
 
 .controls__checkbox {
     display: none;
+}
+
+.form__button {
+    margin-right: 17px;
+}
+
+.form__button:last-child {
+    margin-bottom: 0;
+}
+
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
 }
