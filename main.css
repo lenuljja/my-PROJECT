@@ -651,6 +651,9 @@ img {
 
 /* review page*/
 
+.page-content{
+    background: #FFFFFF;
+}
 
 .reviews {
     column-count: 2;
@@ -672,6 +675,7 @@ img {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+    background: #F4F5F5;
 }
 
 .review__user {
@@ -736,7 +740,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #FFFFFF;
+    color: #F4F5F5;
 }
 
 .separator__content {
