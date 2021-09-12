@@ -168,7 +168,7 @@ img {
     position: absolute;
     background: url("./img/prymougolnik.png") center center /cover no-repeat;
     height: 93px;
-    top: 25px;
+    top: 100px;
     right: 269px;
     transform: .5s all ease-in-out;
 }
@@ -779,47 +779,49 @@ img {
     line-height: 1.1;
 }
 
-.form__row {
+.form {
+    background-color: #F4F5F5;
+    padding-bottom: 40px;
+}
+
+.form__group {
     display: flex;
-    margin-bottom: 30px;
+    column-gap: 25px;
 }
 
 .form__input {
-    flex: 1;
-    margin-right: 30px;
+    Font-size: 18px;
+    line-height: 1.4;
+    padding: 18px 30px;
     border-radius: 5px;
-    border: none;
     background: #FFFFFF;
-    padding: 19px 30px;
-    font-size: 18px;
-    color: #1A1B1E;
+    border: 1px solid transparent;
+    quotes: none;
+    flex: 1;
+    margin-bottom: 25px;
 }
 
-.form__input:last-child {
-    margin-right: 0px;         
-}
-
-.form__input::placeholder {
-    color:#666666;
-}
-
-.form__input--textarea {
-    height: 235px;
-}
-.form__controls {
-    display: flex;
-    margin-bottom: 30px;
+.form__input--type--textarea {
+    min-height: 235px;
+    resize: none;
 }
 
 .form__controls--title {
-    width: 40%;
-    padding-left: 30px;
+    max-width: 366px;
+}
+
+.form__input ::placeholder {
+    color: #666666;
+}
+.form__input:focus {
+    border-color: #8F00FF;
 }
 
 .controls {
-    flex: 1;
     display: flex;
     flex-wrap: wrap;
+    row-gap: 9px;
+    flex: 1;
 }
 
 .controls__item {
@@ -831,11 +833,13 @@ img {
     cursor: pointer;
 }
 
-.controls__checkbox :checked ~ .controls__tag {
+.controls__checkbox:checked ~ .controls__tag {
     background: #B9EAE4;
 }
 
 .controls__checkbox {
+    position: absolute;
+    appearance: none;
     display: none;
 }
 
