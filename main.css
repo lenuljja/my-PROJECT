@@ -661,6 +661,10 @@ img {
 }
 
 .socials__item {
+    margin-bottom: 25px;
+}
+
+.review__item {
     margin-bottom: 20px;
 }
 
@@ -684,11 +688,11 @@ img {
     font-size: 22px;
     font-weight: bold;
     color: #2E77A4;
-    margin-bottom: 7px;
+    margin-bottom: 14px;
 }
 
 .review__user:after {
-    content: url("./img/icons/vk-blue.png");
+    content: url("./img/vk-blue.png");
     height: 30px;
 
 }
