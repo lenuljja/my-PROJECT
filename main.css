@@ -150,10 +150,32 @@ img {
     display: flex;
     justify-content: end;
 }
+
 .contacts__dropdown-title {
     font-size: 13px;
     line-height: 20px;
     text-decoration: underline;
+    position: relative;
+    cursor: pointer;    
+}
+
+.contacts:hover > .address__description {
+    opacity: 1;
+}
+
+.address__description {
+    opacity: 0;
+    position: absolute;
+    background: url("./img/prymougolnik.png") center center /cover no-repeat;
+    height: 93px;
+    top: 25px;
+    right: 269px;
+    transform: .5s all ease-in-out;
+}
+
+.address__description--container {
+    padding: 19px;
+    color: #1E1F20;
 }
 
 .hero {
