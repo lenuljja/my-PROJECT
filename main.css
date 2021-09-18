@@ -807,7 +807,7 @@ img {
 }
 
 .form__controls--title {
-    max-width: 366px;
+    flex-basis: 366px;
 }
 
 .form__input ::placeholder {
